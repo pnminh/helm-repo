@@ -1,3 +1,55 @@
 apiVersion: v1
-entries: {}
-generated: "2024-06-12T23:29:02.174705072Z"
+entries:
+  app-deployment:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-06-12T23:33:09.280558191Z"
+    dependencies:
+    - name: library-chart
+      repository: file://../library-chart
+      version: 0.1.x
+    description: A Helm chart for Kubernetes
+    digest: d1f46c3904f15e2d77cc609393d16342a94d0319755e810a3eff49503beeea33
+    name: app-deployment
+    type: application
+    urls:
+    - https://pnminh.github.io/helm-repo/app-deployment-0.1.1.tgz
+    version: 0.1.1
+  blue-green-deployment:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-06-12T23:33:09.280739922Z"
+    description: A Helm chart for Kubernetes
+    digest: 853ace6ee43a14c15015d89d7db95f6b3236d25abd77a2572159c7cebe818d3e
+    name: blue-green-deployment
+    type: application
+    urls:
+    - https://pnminh.github.io/helm-repo/blue-green-deployment-0.1.0.tgz
+    version: 0.1.0
+  k8s-job:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-06-12T23:33:09.281094217Z"
+    dependencies:
+    - name: library-chart
+      repository: file://../library-chart
+      version: 0.1.x
+    description: A Helm chart for Kubernetes
+    digest: 05742d294e19e458674442d468874632a57dad7ecbfd31f6855f79c5e3cccac3
+    name: k8s-job
+    type: application
+    urls:
+    - https://pnminh.github.io/helm-repo/k8s-job-0.1.0.tgz
+    version: 0.1.0
+  library-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-06-12T23:33:09.281290285Z"
+    description: Helm chart for reusable functions/templates
+    digest: 8f3be011c8b9fb493749a28bc754a3889e095353247d27050ca58f7cab5a0f71
+    name: library-chart
+    type: library
+    urls:
+    - https://pnminh.github.io/helm-repo/library-chart-0.1.1.tgz
+    version: 0.1.1
+generated: "2024-06-12T23:33:09.279755414Z"
