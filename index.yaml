@@ -3,7 +3,7 @@ entries:
   app-deployment:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-12T23:39:45.402042179Z"
+    created: "2024-06-13T01:23:12.653901129Z"
     dependencies:
     - name: library-chart
       repository: file://../library-chart
@@ -15,10 +15,24 @@ entries:
     urls:
     - https://pnminh.github.io/helm-repo/app-deployment-0.1.1.tgz
     version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-06-13T01:23:12.652695931Z"
+    dependencies:
+    - name: library-chart
+      repository: file://../library-chart
+      version: 0.1.x
+    description: A Helm chart for Kubernetes
+    digest: 568ce7a913db67007ceef6bff8cc434ecf07d4b0c84fd2c79a510069b585952e
+    name: app-deployment
+    type: application
+    urls:
+    - https://pnminh.github.io/helm-repo/app-deployment-0.1.0.tgz
+    version: 0.1.0
   blue-green-deployment:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-12T23:39:45.402248914Z"
+    created: "2024-06-13T01:23:12.654131159Z"
     description: A Helm chart for Kubernetes
     digest: 853ace6ee43a14c15015d89d7db95f6b3236d25abd77a2572159c7cebe818d3e
     name: blue-green-deployment
@@ -29,7 +43,7 @@ entries:
   k8s-job:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-12T23:39:45.402607303Z"
+    created: "2024-06-13T01:23:12.654571122Z"
     dependencies:
     - name: library-chart
       repository: file://../library-chart
@@ -44,7 +58,7 @@ entries:
   library-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-12T23:39:45.402764947Z"
+    created: "2024-06-13T01:23:12.654953016Z"
     description: Helm chart for reusable functions/templates
     digest: 8f3be011c8b9fb493749a28bc754a3889e095353247d27050ca58f7cab5a0f71
     name: library-chart
@@ -52,4 +66,14 @@ entries:
     urls:
     - https://pnminh.github.io/helm-repo/library-chart-0.1.1.tgz
     version: 0.1.1
-generated: "2024-06-12T23:39:45.401334939Z"
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-06-13T01:23:12.654787897Z"
+    description: Helm chart for reusable functions/templates
+    digest: d1fa2975c03a78529a6b7166b7971aa2ead98531296a3f2a1da06953d29bacf3
+    name: library-chart
+    type: library
+    urls:
+    - https://pnminh.github.io/helm-repo/library-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-06-13T01:23:12.651611213Z"
