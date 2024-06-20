@@ -3,7 +3,21 @@ entries:
   app-deployment:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-20T19:15:24.511383767Z"
+    created: "2024-06-20T19:17:16.920280871Z"
+    dependencies:
+    - name: library-chart
+      repository: file://../library-chart
+      version: 0.1.x
+    description: A Helm chart for Kubernetes
+    digest: fbe68db96911eed83972529bb265b44be4fa4d063b8cd1097f1b33a392c7364f
+    name: app-deployment
+    type: application
+    urls:
+    - https://pnminh.github.io/helm-repo/app-deployment-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-06-20T19:17:16.919749148Z"
     dependencies:
     - name: library-chart
       repository: file://../library-chart
@@ -17,7 +31,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-20T19:15:24.510853447Z"
+    created: "2024-06-20T19:17:16.919233986Z"
     dependencies:
     - name: library-chart
       repository: file://../library-chart
@@ -31,7 +45,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-20T19:15:24.510354927Z"
+    created: "2024-06-20T19:17:16.918564256Z"
     dependencies:
     - name: library-chart
       repository: file://../library-chart
@@ -45,7 +59,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-20T19:15:24.509736172Z"
+    created: "2024-06-20T19:17:16.918086063Z"
     dependencies:
     - name: library-chart
       repository: file://../library-chart
@@ -59,7 +73,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-20T19:15:24.50920465Z"
+    created: "2024-06-20T19:17:16.917532269Z"
     dependencies:
     - name: library-chart
       repository: file://../library-chart
@@ -74,7 +88,7 @@ entries:
   blue-green-deployment:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-20T19:15:24.511531312Z"
+    created: "2024-06-20T19:17:16.920429438Z"
     description: A Helm chart for Kubernetes
     digest: 853ace6ee43a14c15015d89d7db95f6b3236d25abd77a2572159c7cebe818d3e
     name: blue-green-deployment
@@ -85,7 +99,7 @@ entries:
   k8s-job:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-20T19:15:24.51185715Z"
+    created: "2024-06-20T19:17:16.920742312Z"
     dependencies:
     - name: library-chart
       repository: file://../library-chart
@@ -100,7 +114,7 @@ entries:
   library-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-20T19:15:24.512158873Z"
+    created: "2024-06-20T19:17:16.921056409Z"
     description: Helm chart for reusable functions/templates
     digest: 8f3be011c8b9fb493749a28bc754a3889e095353247d27050ca58f7cab5a0f71
     name: library-chart
@@ -110,7 +124,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-20T19:15:24.512009986Z"
+    created: "2024-06-20T19:17:16.920913452Z"
     description: Helm chart for reusable functions/templates
     digest: d1fa2975c03a78529a6b7166b7971aa2ead98531296a3f2a1da06953d29bacf3
     name: library-chart
@@ -118,4 +132,4 @@ entries:
     urls:
     - https://pnminh.github.io/helm-repo/library-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2024-06-20T19:15:24.508510565Z"
+generated: "2024-06-20T19:17:16.916832452Z"
